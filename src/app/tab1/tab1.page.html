@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab One
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <div *ngFor="let card of duckInfo">
+      <ion-card>
+        <ion-img src="{{card.image}}"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>{{card.subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{card.title}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{card.content}}
+        </ion-card-content>
+      </ion-card>
+   </div>
+
+    <!-- <ion-card>
+        <ion-img src="{{duckInfo[0].image}}"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>{{duckInfo[0].subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{duckInfo[0].title}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          {{duckInfo[0].content}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-img src="{{duckInfo[1].image}}"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>{{duckInfo[1].subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{duckInfo[1].title}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          {{duckInfo[1].content}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-img src="{{duckInfo[2].image}}"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>{{duckInfo[2].subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{duckInfo[2].title}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          {{duckInfo[2].content}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-img src="{{duckInfo[3].image}}"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>{{duckInfo[3].subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{duckInfo[3].title}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          {{duckInfo[3].content}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-img src="{{duckInfo[4].image}}"></ion-img>
+        <ion-card-header>
+          <ion-card-subtitle>{{duckInfo[4].subtitle}}</ion-card-subtitle>
+          <ion-card-title>{{duckInfo[4].title}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          {{duckInfo[4].content}}
+        </ion-card-content>
+      </ion-card> -->
+</ion-content>

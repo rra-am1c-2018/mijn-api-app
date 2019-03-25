@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tab2-api</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngFor="let card of duckInfo">
+    <ion-card>
+      <ion-img src="{{card.image}}"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>{{card.subtitle}}</ion-card-subtitle>
+        <ion-card-title>{{card.title}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{card.content}}
+      </ion-card-content>
+    </ion-card>
+ </div>
+</ion-content>
